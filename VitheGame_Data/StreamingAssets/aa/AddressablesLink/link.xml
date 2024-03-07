@@ -13,8 +13,6 @@
     <type fullname="DuloGames.UI.UISliderDisplayValue" preserve="all" />
     <type fullname="DuloGames.UI.UIToggle_OnOff" preserve="all" />
     <type fullname="DuloGames.UI.UIWindow" preserve="all" />
-    <type fullname="Ricimi.CleanButton" preserve="all" />
-    <type fullname="Ricimi.CleanButtonConfig" preserve="all" />
     <type fullname="DuloGames.UI.UIDragObject/BeginDragEvent" preserve="nothing" serialized="true" />
     <type fullname="DuloGames.UI.UIDragObject/DragEvent" preserve="nothing" serialized="true" />
     <type fullname="DuloGames.UI.UIDragObject/EndDragEvent" preserve="nothing" serialized="true" />
@@ -90,19 +88,7 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
     <type fullname="TMPro.TMP_Dropdown" preserve="all" />
-    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
-    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
@@ -307,6 +293,7 @@
     <type fullname="Vi.UI.MainMenuUI" preserve="all" />
     <type fullname="Vi.UI.MapOption" preserve="all" />
     <type fullname="Vi.UI.PauseMenu" preserve="all" />
+    <type fullname="Vi.UI.PlatformUIDefinition" preserve="all" />
     <type fullname="Vi.UI.PlayerCard" preserve="all" />
     <type fullname="Vi.UI.PlayerUI" preserve="all" />
     <type fullname="Vi.UI.SceneLoadingUI" preserve="all" />
@@ -325,15 +312,10 @@
     <type fullname="Vi.UI.LobbyUI/AccountCardParent" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.LobbyUI/CustomSettingsParent" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.LobbyUI/CustomSettingsParent/CustomSettingsInputField" preserve="nothing" serialized="true" />
-    <type fullname="Vi.UI.PlayerUI/MoveUIDefinition" preserve="nothing" serialized="true" />
-    <type fullname="Vi.UI.PlayerUI/PlatformUIDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.PlatformUIDefinition/ControlSchemeTextDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.PlatformUIDefinition/MoveUIDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.PlatformUIDefinition/UIDefinition" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ContentManager/DownloadableAsset" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ContentManager/DownloadableAssetGroup" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
-    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
