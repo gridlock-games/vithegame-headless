@@ -27,16 +27,21 @@
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="GameCreator.Core.IgniterOnEnable" preserve="all" />
   </assembly>
+  <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
+  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Animation.Rigging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animations.Rigging.MultiAimConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animations.Rigging.MultiRotationConstraint" preserve="all" />
     <type fullname="UnityEngine.Animations.Rigging.Rig" preserve="all" />
     <type fullname="UnityEngine.Animations.Rigging.RigBuilder" preserve="all" />
     <type fullname="UnityEngine.Animations.Rigging.TwoBoneIKConstraint" preserve="all" />
     <type fullname="UnityEngine.Animations.Rigging.MultiAimConstraintData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Animations.Rigging.MultiRotationConstraintData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Animations.Rigging.RigEffectorData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Animations.Rigging.RigEffectorData/Style" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Animations.Rigging.RigLayer" preserve="nothing" serialized="true" />
@@ -76,6 +81,29 @@
     <type fullname="Unity.Netcode.Transports.UTP.UnityTransport/ConnectionAddressData" preserve="nothing" serialized="true" />
     <type fullname="Unity.Netcode.Transports.UTP.UnityTransport/SimulatorParameters" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="Unity.Postprocessing.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.PostProcessing.AmbientOcclusion" preserve="all" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.AutoExposure" preserve="all" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.Bloom" preserve="all" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.ColorGrading" preserve="all" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.PostProcessProfile" preserve="all" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.PostProcessVolume" preserve="all" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.Vignette" preserve="all" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.AmbientOcclusionModeParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.AmbientOcclusionQualityParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.BoolParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.ColorParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.EyeAdaptationParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.FloatParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.GradingModeParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.Spline" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.SplineParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.TextureParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.TonemapperParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.Vector2Parameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.Vector4Parameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.PostProcessing.VignetteModeParameter" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
@@ -114,7 +142,9 @@
     <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightingSettings" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LightProbeGroup" preserve="all" />
     <type fullname="UnityEngine.LODGroup" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
@@ -123,6 +153,7 @@
     <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.ReflectionProbe" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
     <type fullname="UnityEngine.RenderTexture" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
@@ -144,6 +175,7 @@
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.CharacterJoint" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.PhysicMaterial" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
@@ -257,7 +289,6 @@
     <type fullname="Vi.ScriptableObjects.Weapon" preserve="all" />
     <type fullname="Vi.ScriptableObjects.WearableEquipment" preserve="all" />
     <type fullname="Vi.ScriptableObjects.ActionClip/StatusPayload" preserve="nothing" serialized="true" />
-    <type fullname="Vi.ScriptableObjects.CharacterReference/CharacterMaterial" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.CharacterReference/PlayerModelOption" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.CharacterReference/WeaponOption" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.CharacterReference/WearableEquipmentOption" preserve="nothing" serialized="true" />
@@ -273,17 +304,19 @@
     <type fullname="Vi.UI.AccountCard" preserve="all" />
     <type fullname="Vi.UI.AlertBox" preserve="all" />
     <type fullname="Vi.UI.AnimateEllipsis" preserve="all" />
+    <type fullname="Vi.UI.AudioSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.CharacterCard" preserve="all" />
     <type fullname="Vi.UI.CharacterSelectUI" preserve="all" />
+    <type fullname="Vi.UI.ComboCounterUI" preserve="all" />
     <type fullname="Vi.UI.ConformImageToText" preserve="all" />
     <type fullname="Vi.UI.ContentManager" preserve="all" />
     <type fullname="Vi.UI.ControlsSettingsMenu" preserve="all" />
-    <type fullname="Vi.UI.DisplaySettingsMenu" preserve="all" />
     <type fullname="Vi.UI.DownloadButton" preserve="all" />
     <type fullname="Vi.UI.DownloadGroup" preserve="all" />
     <type fullname="Vi.UI.EnhancedTouchOnScreenStick" preserve="all" />
     <type fullname="Vi.UI.FreeForAllManagerUI" preserve="all" />
     <type fullname="Vi.UI.GameModeOption" preserve="all" />
+    <type fullname="Vi.UI.GameSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.HubServerBrowser" preserve="all" />
     <type fullname="Vi.UI.IrregularButton" preserve="all" />
     <type fullname="Vi.UI.KillFeed" preserve="all" />
@@ -297,6 +330,7 @@
     <type fullname="Vi.UI.PlatformUIDefinition" preserve="all" />
     <type fullname="Vi.UI.PlayerCard" preserve="all" />
     <type fullname="Vi.UI.PlayerUI" preserve="all" />
+    <type fullname="Vi.UI.RebindingElement" preserve="all" />
     <type fullname="Vi.UI.SceneLoadingUI" preserve="all" />
     <type fullname="Vi.UI.Scoreboard" preserve="all" />
     <type fullname="Vi.UI.ScoreboardElement" preserve="all" />
@@ -307,6 +341,7 @@
     <type fullname="Vi.UI.TeamEliminationManagerUI" preserve="all" />
     <type fullname="Vi.UI.TeamIndicator" preserve="all" />
     <type fullname="Vi.UI.UICamera" preserve="all" />
+    <type fullname="Vi.UI.VideoSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.WeaponOptionElement" preserve="all" />
     <type fullname="Vi.UI.WeaponSelectMenu" preserve="all" />
     <type fullname="Vi.UI.WorldSpaceLabel" preserve="all" />
@@ -318,5 +353,6 @@
     <type fullname="Vi.UI.PlatformUIDefinition/UIDefinition" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ContentManager/DownloadableAsset" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ContentManager/DownloadableAssetGroup" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.ControlsSettingsMenu/RebindableAction" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
