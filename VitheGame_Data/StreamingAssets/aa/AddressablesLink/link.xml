@@ -145,6 +145,7 @@
     <type fullname="UnityEngine.LightingSettings" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.LightProbeGroup" preserve="all" />
+    <type fullname="UnityEngine.LightProbes" preserve="all" />
     <type fullname="UnityEngine.LODGroup" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
@@ -311,9 +312,9 @@
     <type fullname="Vi.UI.ConformImageToText" preserve="all" />
     <type fullname="Vi.UI.ContentManager" preserve="all" />
     <type fullname="Vi.UI.ControlsSettingsMenu" preserve="all" />
+    <type fullname="Vi.UI.CustomOnScreenStick" preserve="all" />
     <type fullname="Vi.UI.DownloadButton" preserve="all" />
     <type fullname="Vi.UI.DownloadGroup" preserve="all" />
-    <type fullname="Vi.UI.EnhancedTouchOnScreenStick" preserve="all" />
     <type fullname="Vi.UI.FreeForAllManagerUI" preserve="all" />
     <type fullname="Vi.UI.GameModeOption" preserve="all" />
     <type fullname="Vi.UI.GameSettingsMenu" preserve="all" />
