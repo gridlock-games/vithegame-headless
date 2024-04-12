@@ -13,6 +13,7 @@
     <type fullname="DuloGames.UI.UISliderDisplayValue" preserve="all" />
     <type fullname="DuloGames.UI.UIToggle_OnOff" preserve="all" />
     <type fullname="DuloGames.UI.UIWindow" preserve="all" />
+    <type fullname="ViNetAnalytics.ViAnalytics" preserve="all" />
     <type fullname="DuloGames.UI.UIDragObject/BeginDragEvent" preserve="nothing" serialized="true" />
     <type fullname="DuloGames.UI.UIDragObject/DragEvent" preserve="nothing" serialized="true" />
     <type fullname="DuloGames.UI.UIDragObject/EndDragEvent" preserve="nothing" serialized="true" />
@@ -80,6 +81,11 @@
     <type fullname="Unity.Netcode.NetworkPrefabs" preserve="nothing" serialized="true" />
     <type fullname="Unity.Netcode.Transports.UTP.UnityTransport/ConnectionAddressData" preserve="nothing" serialized="true" />
     <type fullname="Unity.Netcode.Transports.UTP.UnityTransport/SimulatorParameters" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Polybrush, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Polybrush.PolybrushMesh" preserve="all" />
+    <type fullname="UnityEngine.Polybrush.PolyMesh" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Polybrush.SubMesh" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Postprocessing.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.PostProcessing.AmbientOcclusion" preserve="all" />
