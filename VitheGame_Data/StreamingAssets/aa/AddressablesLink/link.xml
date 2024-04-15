@@ -31,6 +31,30 @@
   <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
   </assembly>
+  <assembly fullname="MagicaClothV2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MagicaCloth2.MagicaCloth" preserve="all" />
+    <type fullname="MagicaCloth2.AngleConstraint/LimitSerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.AngleConstraint/RestorationSerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.CheckSliderSerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ClothDebugSettings" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ClothSerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ClothSerializeData2" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ColliderCollisionConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.CurveSerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.CustomSkinningSettings" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.DistanceConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.GizmoSerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.InertiaConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.MotionConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.NormalAlignmentSettings" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ReductionSettings" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.SelectionData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.SelfCollisionConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.TetherConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.TriangleBendingConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.VertexAttribute" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.WindSettings" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
@@ -310,6 +334,7 @@
     <type fullname="Vi.UI.AccountCard" preserve="all" />
     <type fullname="Vi.UI.AlertBox" preserve="all" />
     <type fullname="Vi.UI.AnimateEllipsis" preserve="all" />
+    <type fullname="Vi.UI.ArmorSelectMenu" preserve="all" />
     <type fullname="Vi.UI.AudioSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.CharacterCard" preserve="all" />
     <type fullname="Vi.UI.CharacterSelectUI" preserve="all" />
@@ -360,5 +385,8 @@
     <type fullname="Vi.UI.ContentManager/DownloadableAsset" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ContentManager/DownloadableAssetGroup" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ControlsSettingsMenu/RebindableAction" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Mathematics">
+    <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
