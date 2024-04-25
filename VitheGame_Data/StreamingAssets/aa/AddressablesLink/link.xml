@@ -32,37 +32,6 @@
   <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
   </assembly>
-  <assembly fullname="MagicaClothV2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="MagicaCloth2.MagicaCloth" preserve="all" />
-    <type fullname="MagicaCloth2.AngleConstraint/LimitSerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.AngleConstraint/RestorationSerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.CheckSliderSerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.ClothDebugSettings" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.ClothSerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.ClothSerializeData2" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.ColliderCollisionConstraint/SerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.CullingSettings" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.CurveSerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.CustomSkinningSettings" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.DistanceConstraint/SerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.GizmoSerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.InertiaConstraint/SerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.MotionConstraint/SerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.NormalAlignmentSettings" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.PreBuildSerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.ReductionSettings" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.ResultCode" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.SelectionData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.SelfCollisionConstraint/SerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.SpringConstraint/SerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.TetherConstraint/SerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.TransformData/UniqueSerializationData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.TriangleBendingConstraint/SerializeData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.UniquePreBuildData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.VertexAttribute" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.VirtualMesh/UniqueSerializationData" preserve="nothing" serialized="true" />
-    <type fullname="MagicaCloth2.WindSettings" preserve="nothing" serialized="true" />
-  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
@@ -268,6 +237,7 @@
     <type fullname="UnityEngine.VFX.VisualEffectAsset" preserve="all" />
   </assembly>
   <assembly fullname="Vi.ArtificialIntelligence, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Vi.ArtificialIntelligence.AncientBossController" preserve="all" />
     <type fullname="Vi.ArtificialIntelligence.BotController" preserve="all" />
     <type fullname="Vi.ArtificialIntelligence.BotSpawner" preserve="all" />
     <type fullname="Vi.ArtificialIntelligence.BotSpawner/BotDefinition" preserve="nothing" serialized="true" />
@@ -336,12 +306,12 @@
     <type fullname="Vi.ScriptableObjects.CharacterReference/PlayerModelOption" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.CharacterReference/WeaponOption" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.CharacterReference/WearableEquipmentOption" preserve="nothing" serialized="true" />
-    <type fullname="Vi.ScriptableObjects.StatusImageReference/StatusIcon" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/Attack" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/AttackSoundEffect" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/HitReaction" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/WeaponModelData" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/WeaponModelData/Data" preserve="nothing" serialized="true" />
+    <type fullname="Vi.ScriptableObjects.StatusImageReference/StatusIcon" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Vi.UI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Vi.UI.AbilityCard" preserve="all" />
@@ -387,6 +357,7 @@
     <type fullname="Vi.UI.TeamEliminationManagerUI" preserve="all" />
     <type fullname="Vi.UI.TeamIndicator" preserve="all" />
     <type fullname="Vi.UI.UICamera" preserve="all" />
+    <type fullname="Vi.UI.UIModificationMenu" preserve="all" />
     <type fullname="Vi.UI.VideoSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.WeaponOptionElement" preserve="all" />
     <type fullname="Vi.UI.WeaponSelectMenu" preserve="all" />
@@ -400,8 +371,5 @@
     <type fullname="Vi.UI.ContentManager/DownloadableAsset" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ContentManager/DownloadableAssetGroup" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ControlsSettingsMenu/RebindableAction" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="Unity.Mathematics">
-    <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
