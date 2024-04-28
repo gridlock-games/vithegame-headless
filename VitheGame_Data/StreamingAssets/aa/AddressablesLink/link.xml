@@ -371,5 +371,6 @@
     <type fullname="Vi.UI.ContentManager/DownloadableAsset" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ContentManager/DownloadableAssetGroup" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ControlsSettingsMenu/RebindableAction" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.PlatformUIDefinition/ControlSchemeDefinition" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
