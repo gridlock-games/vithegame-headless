@@ -332,6 +332,7 @@
     <type fullname="Vi.UI.DownloadGroup" preserve="all" />
     <type fullname="Vi.UI.EssenceWarManagerUI" preserve="all" />
     <type fullname="Vi.UI.FreeForAllManagerUI" preserve="all" />
+    <type fullname="Vi.UI.GameModeManagerUI" preserve="all" />
     <type fullname="Vi.UI.GameModeOption" preserve="all" />
     <type fullname="Vi.UI.GameSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.HubServerBrowser" preserve="all" />
@@ -355,7 +356,6 @@
     <type fullname="Vi.UI.SpectatorUI" preserve="all" />
     <type fullname="Vi.UI.StatusIcon" preserve="all" />
     <type fullname="Vi.UI.TeamDeathmatchManagerUI" preserve="all" />
-    <type fullname="Vi.UI.TeamEliminationManagerUI" preserve="all" />
     <type fullname="Vi.UI.TeamIndicator" preserve="all" />
     <type fullname="Vi.UI.UICamera" preserve="all" />
     <type fullname="Vi.UI.UIModificationMenu" preserve="all" />
