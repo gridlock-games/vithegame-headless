@@ -158,6 +158,7 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
@@ -317,7 +318,6 @@
     <type fullname="Vi.UI.DownloadGroup" preserve="all" />
     <type fullname="Vi.UI.EssenceWarManagerUI" preserve="all" />
     <type fullname="Vi.UI.FreeForAllManagerUI" preserve="all" />
-    <type fullname="Vi.UI.GameModeManagerUI" preserve="all" />
     <type fullname="Vi.UI.GameModeOption" preserve="all" />
     <type fullname="Vi.UI.GameSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.HubServerBrowser" preserve="all" />
@@ -334,6 +334,8 @@
     <type fullname="Vi.UI.PlayerCard" preserve="all" />
     <type fullname="Vi.UI.PlayerUI" preserve="all" />
     <type fullname="Vi.UI.RebindingElement" preserve="all" />
+    <type fullname="Vi.UI.ReleaseButton" preserve="all" />
+    <type fullname="Vi.UI.RuntimeWeaponCard" preserve="all" />
     <type fullname="Vi.UI.SceneLoadingUI" preserve="all" />
     <type fullname="Vi.UI.Scoreboard" preserve="all" />
     <type fullname="Vi.UI.ScoreboardElement" preserve="all" />
@@ -341,6 +343,7 @@
     <type fullname="Vi.UI.SpectatorUI" preserve="all" />
     <type fullname="Vi.UI.StatusIcon" preserve="all" />
     <type fullname="Vi.UI.TeamDeathmatchManagerUI" preserve="all" />
+    <type fullname="Vi.UI.TeamEliminationUI" preserve="all" />
     <type fullname="Vi.UI.TeamIndicator" preserve="all" />
     <type fullname="Vi.UI.UICamera" preserve="all" />
     <type fullname="Vi.UI.UIModificationMenu" preserve="all" />
