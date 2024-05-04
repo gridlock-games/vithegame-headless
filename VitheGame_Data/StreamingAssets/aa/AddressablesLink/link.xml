@@ -290,6 +290,7 @@
     <type fullname="Vi.Core.WebRequestManager" preserve="all" />
     <type fullname="Vi.Core.AnimatorReference/MaterialReplacementDefintion" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.AnimatorReference/WearableEquipmentRendererDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Vi.Core.Attributes/OnHitActionVFX" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.NetSceneManager/ScenePayload" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.PlayerDataManager/GameModeInfo" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.SceneReference" preserve="nothing" serialized="true" />
