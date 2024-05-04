@@ -297,9 +297,6 @@
     <type fullname="Vi.Core.PlayerSpawnPoints/SpawnPointDefinition" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.PlayerSpawnPoints/TransformData" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Vi.Misc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Vi.Misc.DeactivateColliderAfterParticleSystemTimeReached" preserve="all" />
-  </assembly>
   <assembly fullname="Vi.Player, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Vi.Player.ActionMapHandler" preserve="all" />
     <type fullname="Vi.Player.CameraController" preserve="all" />
