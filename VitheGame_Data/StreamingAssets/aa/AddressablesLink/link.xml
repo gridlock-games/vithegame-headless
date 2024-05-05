@@ -261,6 +261,7 @@
   </assembly>
   <assembly fullname="Vi.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Vi.Core.ActionVFXParticleSystem" preserve="all" />
+    <type fullname="Vi.Core.ActionVFXPhysicsProjectile" preserve="all" />
     <type fullname="Vi.Core.ActionVFXPreview" preserve="all" />
     <type fullname="Vi.Core.AnimationHandler" preserve="all" />
     <type fullname="Vi.Core.AnimatorReference" preserve="all" />
