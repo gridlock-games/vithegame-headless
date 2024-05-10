@@ -34,6 +34,9 @@
   </assembly>
   <assembly fullname="MagicaClothV2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MagicaCloth2.MagicaCloth" preserve="all" />
+    <type fullname="MagicaCloth2.MagicaSettings" preserve="all" />
+    <type fullname="MagicaCloth2.PreBuildScriptableObject" preserve="all" />
+    <type fullname="MagicaCloth2.AABB" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.AngleConstraint/LimitSerializeData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.AngleConstraint/RestorationSerializeData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.CheckSliderSerializeData" preserve="nothing" serialized="true" />
@@ -44,22 +47,41 @@
     <type fullname="MagicaCloth2.CullingSettings" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.CurveSerializeData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.CustomSkinningSettings" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.DistanceConstraint/ConstraintData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.DistanceConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[MagicaCloth2.ExBitFlag8]" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[MagicaCloth2.VertexAttribute]" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[MagicaCloth2.VirtualMeshBoneWeight]" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[System.Int32]" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[Unity.Mathematics.float2]" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[Unity.Mathematics.float3]" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[Unity.Mathematics.float4x4]" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[Unity.Mathematics.int2]" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[Unity.Mathematics.int3]" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.ExSimpleNativeArray`1/SerializationData[Unity.Mathematics.quaternion]" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.GizmoSerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.InertiaConstraint/CenterData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.InertiaConstraint/ConstraintData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.InertiaConstraint/SerializeData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.MotionConstraint/SerializeData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.NormalAlignmentSettings" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.PreBuildSerializeData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.ReductionSettings" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.RenderSetupData/ShareSerializationData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.RenderSetupData/UniqueSerializationData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.ResultCode" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.SelectionData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.SelfCollisionConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.SharePreBuildData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.SpringConstraint/SerializeData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.TetherConstraint/SerializeData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.TransformData/ShareSerializationData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.TransformData/UniqueSerializationData" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.TriangleBendingConstraint/ConstraintData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.TriangleBendingConstraint/SerializeData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.UniquePreBuildData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.VertexAttribute" preserve="nothing" serialized="true" />
+    <type fullname="MagicaCloth2.VirtualMesh/ShareSerializationData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.VirtualMesh/UniqueSerializationData" preserve="nothing" serialized="true" />
     <type fullname="MagicaCloth2.WindSettings" preserve="nothing" serialized="true" />
   </assembly>
@@ -282,7 +304,6 @@
     <type fullname="Vi.Core.NetSceneManager" preserve="all" />
     <type fullname="Vi.Core.NetworkCallbackManager" preserve="all" />
     <type fullname="Vi.Core.NetworkCollider" preserve="all" />
-    <type fullname="Vi.Core.PersistentLocalObjects" preserve="all" />
     <type fullname="Vi.Core.PlayerDataManager" preserve="all" />
     <type fullname="Vi.Core.PlayerSpawnPoints" preserve="all" />
     <type fullname="Vi.Core.Projectile" preserve="all" />
@@ -395,5 +416,9 @@
   </assembly>
   <assembly fullname="Unity.Mathematics">
     <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.float4" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.float4x4" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.int2" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.quaternion" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
