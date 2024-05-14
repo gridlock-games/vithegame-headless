@@ -346,6 +346,7 @@
     <type fullname="Vi.ScriptableObjects.CharacterReference/WearableEquipmentOption" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/Attack" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/AttackSoundEffect" preserve="nothing" serialized="true" />
+    <type fullname="Vi.ScriptableObjects.Weapon/FlinchReaction" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/GrabAttackCrosswalk" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/HitReaction" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/WeaponModelData" preserve="nothing" serialized="true" />
