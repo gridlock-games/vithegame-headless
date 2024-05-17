@@ -218,6 +218,7 @@
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
@@ -301,8 +302,10 @@
     <type fullname="Vi.Core.AnimatorReference" preserve="all" />
     <type fullname="Vi.Core.Attributes" preserve="all" />
     <type fullname="Vi.Core.AudioManager" preserve="all" />
+    <type fullname="Vi.Core.BlackHole" preserve="all" />
     <type fullname="Vi.Core.ColliderWeapon" preserve="all" />
     <type fullname="Vi.Core.DamageCircle" preserve="all" />
+    <type fullname="Vi.Core.FollowUpVFX" preserve="all" />
     <type fullname="Vi.Core.FootstepAudioHandler" preserve="all" />
     <type fullname="Vi.Core.GameModeManagers.EssenceWarManager" preserve="all" />
     <type fullname="Vi.Core.GameModeManagers.FreeForAllManager" preserve="all" />
