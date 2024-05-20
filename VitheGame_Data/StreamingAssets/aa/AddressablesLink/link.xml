@@ -97,8 +97,6 @@
     <type fullname="UnityEngine.Animations.Rigging.TwoBoneIKConstraint" preserve="all" />
     <type fullname="UnityEngine.Animations.Rigging.MultiAimConstraintData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Animations.Rigging.MultiRotationConstraintData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Animations.Rigging.RigEffectorData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Animations.Rigging.RigEffectorData/Style" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Animations.Rigging.RigLayer" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Animations.Rigging.TwoBoneIKConstraintData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Animations.Rigging.Vector3Bool" preserve="nothing" serialized="true" />
@@ -305,7 +303,6 @@
     <type fullname="Vi.Core.ColliderWeapon" preserve="all" />
     <type fullname="Vi.Core.DamageCircle" preserve="all" />
     <type fullname="Vi.Core.FollowUpVFX" preserve="all" />
-    <type fullname="Vi.Core.FootstepAudioHandler" preserve="all" />
     <type fullname="Vi.Core.GameModeManagers.EssenceWarManager" preserve="all" />
     <type fullname="Vi.Core.GameModeManagers.FreeForAllManager" preserve="all" />
     <type fullname="Vi.Core.GameModeManagers.GameModeManager" preserve="all" />
