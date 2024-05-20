@@ -301,7 +301,6 @@
     <type fullname="Vi.Core.AnimationHandler" preserve="all" />
     <type fullname="Vi.Core.AnimatorReference" preserve="all" />
     <type fullname="Vi.Core.Attributes" preserve="all" />
-    <type fullname="Vi.Core.AudioManager" preserve="all" />
     <type fullname="Vi.Core.BlackHole" preserve="all" />
     <type fullname="Vi.Core.ColliderWeapon" preserve="all" />
     <type fullname="Vi.Core.DamageCircle" preserve="all" />
@@ -384,6 +383,7 @@
     <type fullname="Vi.UI.CustomOnScreenStick" preserve="all" />
     <type fullname="Vi.UI.DownloadButton" preserve="all" />
     <type fullname="Vi.UI.DownloadGroup" preserve="all" />
+    <type fullname="Vi.UI.DropdownAudio" preserve="all" />
     <type fullname="Vi.UI.EssenceWarManagerUI" preserve="all" />
     <type fullname="Vi.UI.FreeForAllManagerUI" preserve="all" />
     <type fullname="Vi.UI.GameModeOption" preserve="all" />
@@ -399,6 +399,8 @@
     <type fullname="Vi.UI.MapOption" preserve="all" />
     <type fullname="Vi.UI.PauseMenu" preserve="all" />
     <type fullname="Vi.UI.PlatformUIDefinition" preserve="all" />
+    <type fullname="Vi.UI.PlayAudioClipOnButtonPress" preserve="all" />
+    <type fullname="Vi.UI.PlayAudioClipOnToggleChange" preserve="all" />
     <type fullname="Vi.UI.PlayerCard" preserve="all" />
     <type fullname="Vi.UI.PlayerUI" preserve="all" />
     <type fullname="Vi.UI.RebindingElement" preserve="all" />
@@ -429,6 +431,9 @@
     <type fullname="Vi.UI.ContentManager/DownloadableAssetGroup" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ControlsSettingsMenu/RebindableAction" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.PlatformUIDefinition/ControlSchemeDefinition" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Vi.Utility, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Vi.Utility.AudioManager" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Mathematics">
     <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
