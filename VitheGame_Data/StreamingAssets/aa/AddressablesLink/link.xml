@@ -303,6 +303,7 @@
     <type fullname="Vi.Core.ColliderWeapon" preserve="all" />
     <type fullname="Vi.Core.DamageCircle" preserve="all" />
     <type fullname="Vi.Core.FollowUpVFX" preserve="all" />
+    <type fullname="Vi.Core.FootstepAudioHandler" preserve="all" />
     <type fullname="Vi.Core.GameModeManagers.EssenceWarManager" preserve="all" />
     <type fullname="Vi.Core.GameModeManagers.FreeForAllManager" preserve="all" />
     <type fullname="Vi.Core.GameModeManagers.GameModeManager" preserve="all" />
