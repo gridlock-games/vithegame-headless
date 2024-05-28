@@ -379,7 +379,10 @@
     <type fullname="Vi.UI.AnimateEllipsis" preserve="all" />
     <type fullname="Vi.UI.ArmorSelectMenu" preserve="all" />
     <type fullname="Vi.UI.AudioSettingsMenu" preserve="all" />
+    <type fullname="Vi.UI.ButtonColorSync" preserve="all" />
     <type fullname="Vi.UI.CharacterCard" preserve="all" />
+    <type fullname="Vi.UI.CharacterCustomizationButton" preserve="all" />
+    <type fullname="Vi.UI.CharacterCustomizationRow" preserve="all" />
     <type fullname="Vi.UI.CharacterSelectUI" preserve="all" />
     <type fullname="Vi.UI.ComboCounterUI" preserve="all" />
     <type fullname="Vi.UI.ConformImageToText" preserve="all" />
@@ -398,6 +401,7 @@
     <type fullname="Vi.UI.KillFeed" preserve="all" />
     <type fullname="Vi.UI.KillFeedElement" preserve="all" />
     <type fullname="Vi.UI.LoadoutEditorMenu" preserve="all" />
+    <type fullname="Vi.UI.LoadoutOptionElement" preserve="all" />
     <type fullname="Vi.UI.LobbyManagerNPC" preserve="all" />
     <type fullname="Vi.UI.LobbyUI" preserve="all" />
     <type fullname="Vi.UI.MainMenuUI" preserve="all" />
@@ -411,6 +415,7 @@
     <type fullname="Vi.UI.RebindingElement" preserve="all" />
     <type fullname="Vi.UI.ReleaseButton" preserve="all" />
     <type fullname="Vi.UI.RuntimeWeaponCard" preserve="all" />
+    <type fullname="Vi.UI.SceneLoadingInfoUI" preserve="all" />
     <type fullname="Vi.UI.SceneLoadingUI" preserve="all" />
     <type fullname="Vi.UI.Scoreboard" preserve="all" />
     <type fullname="Vi.UI.ScoreboardElement" preserve="all" />
@@ -423,7 +428,6 @@
     <type fullname="Vi.UI.UICamera" preserve="all" />
     <type fullname="Vi.UI.UIModificationMenu" preserve="all" />
     <type fullname="Vi.UI.VideoSettingsMenu" preserve="all" />
-    <type fullname="Vi.UI.WeaponOptionElement" preserve="all" />
     <type fullname="Vi.UI.WeaponSelectMenu" preserve="all" />
     <type fullname="Vi.UI.WorldSpaceLabel" preserve="all" />
     <type fullname="Vi.UI.LobbyUI/AccountCardParent" preserve="nothing" serialized="true" />
