@@ -128,10 +128,10 @@
     <type fullname="Unity.Netcode.NetworkPrefabsList" preserve="all" />
     <type fullname="Unity.Netcode.Transports.UTP.UnityTransport" preserve="all" />
     <type fullname="Unity.Netcode.NetworkConfig" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Netcode.NetworkPrefab" preserve="nothing" serialized="true" />
     <type fullname="Unity.Netcode.NetworkPrefabs" preserve="nothing" serialized="true" />
     <type fullname="Unity.Netcode.Transports.UTP.UnityTransport/ConnectionAddressData" preserve="nothing" serialized="true" />
     <type fullname="Unity.Netcode.Transports.UTP.UnityTransport/SimulatorParameters" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Netcode.NetworkPrefab" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Polybrush, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Polybrush.PolybrushMesh" preserve="all" />
@@ -165,22 +165,10 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
     <type fullname="TMPro.TMP_Dropdown" preserve="all" />
-    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
@@ -225,8 +213,8 @@
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
-    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
@@ -268,14 +256,14 @@
     <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
@@ -329,6 +317,8 @@
     <type fullname="Vi.Core.ShooterWeapon" preserve="all" />
     <type fullname="Vi.Core.WeaponHandler" preserve="all" />
     <type fullname="Vi.Core.WebRequestManager" preserve="all" />
+    <type fullname="Vi.Core.PlayerSpawnPoints/SpawnPointDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Vi.Core.PlayerSpawnPoints/TransformData" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.AnimatorReference/MaterialReplacementDefintion" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.AnimatorReference/WearableEquipmentRendererDefinition" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.Attributes/OnHitActionVFX" preserve="nothing" serialized="true" />
@@ -336,8 +326,6 @@
     <type fullname="Vi.Core.PlayerDataManager/GameModeInfo" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.SceneReference" preserve="nothing" serialized="true" />
     <type fullname="Vi.Core.ShooterWeapon/InverseKinematicsData" preserve="nothing" serialized="true" />
-    <type fullname="Vi.Core.PlayerSpawnPoints/SpawnPointDefinition" preserve="nothing" serialized="true" />
-    <type fullname="Vi.Core.PlayerSpawnPoints/TransformData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Vi.Player, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Vi.Player.ActionMapHandler" preserve="all" />
@@ -363,6 +351,7 @@
     <type fullname="Vi.ScriptableObjects.CharacterReference/PlayerModelOption" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.CharacterReference/WeaponOption" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.CharacterReference/WearableEquipmentOption" preserve="nothing" serialized="true" />
+    <type fullname="Vi.ScriptableObjects.StatusImageReference/StatusIcon" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/Attack" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/AttackSoundEffect" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/FlinchReaction" preserve="nothing" serialized="true" />
@@ -370,7 +359,6 @@
     <type fullname="Vi.ScriptableObjects.Weapon/HitReaction" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/WeaponModelData" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/WeaponModelData/Data" preserve="nothing" serialized="true" />
-    <type fullname="Vi.ScriptableObjects.StatusImageReference/StatusIcon" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Vi.UI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Vi.UI.AbilityCard" preserve="all" />
@@ -430,16 +418,16 @@
     <type fullname="Vi.UI.VideoSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.WeaponSelectMenu" preserve="all" />
     <type fullname="Vi.UI.WorldSpaceLabel" preserve="all" />
+    <type fullname="Vi.UI.ContentManager/DownloadableAsset" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.ContentManager/DownloadableAssetGroup" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.PlatformUIDefinition/ControlSchemeTextDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.PlatformUIDefinition/UIDefinition" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.LobbyUI/AccountCardParent" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.LobbyUI/CustomSettingsParent" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.LobbyUI/CustomSettingsParent/CustomSettingsInputField" preserve="nothing" serialized="true" />
-    <type fullname="Vi.UI.PlatformUIDefinition/ControlSchemeTextDefinition" preserve="nothing" serialized="true" />
-    <type fullname="Vi.UI.PlatformUIDefinition/MoveUIDefinition" preserve="nothing" serialized="true" />
-    <type fullname="Vi.UI.PlatformUIDefinition/UIDefinition" preserve="nothing" serialized="true" />
-    <type fullname="Vi.UI.ContentManager/DownloadableAsset" preserve="nothing" serialized="true" />
-    <type fullname="Vi.UI.ContentManager/DownloadableAssetGroup" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.ControlsSettingsMenu/RebindableAction" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.PlatformUIDefinition/ControlSchemeDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.PlatformUIDefinition/MoveUIDefinition" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Vi.Utility, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Vi.Utility.AudioManager" preserve="all" />
@@ -450,11 +438,5 @@
     <type fullname="Unity.Mathematics.float4x4" preserve="nothing" serialized="true" />
     <type fullname="Unity.Mathematics.int2" preserve="nothing" serialized="true" />
     <type fullname="Unity.Mathematics.quaternion" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
-    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
