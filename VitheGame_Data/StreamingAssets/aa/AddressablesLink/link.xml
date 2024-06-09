@@ -395,6 +395,7 @@
     <type fullname="Vi.UI.AccountCard" preserve="all" />
     <type fullname="Vi.UI.AlertBox" preserve="all" />
     <type fullname="Vi.UI.AnimateEllipsis" preserve="all" />
+    <type fullname="Vi.UI.ArmorDisplayElement" preserve="all" />
     <type fullname="Vi.UI.ArmorSelectMenu" preserve="all" />
     <type fullname="Vi.UI.AudioSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.ButtonColorSync" preserve="all" />
@@ -451,6 +452,7 @@
     <type fullname="Vi.UI.UIModificationMenu" preserve="all" />
     <type fullname="Vi.UI.UISetting_Menu" preserve="all" />
     <type fullname="Vi.UI.VideoSettingsMenu" preserve="all" />
+    <type fullname="Vi.UI.WeaponDisplayElement" preserve="all" />
     <type fullname="Vi.UI.WeaponSelectMenu" preserve="all" />
     <type fullname="Vi.UI.WorldSpaceLabel" preserve="all" />
     <type fullname="Vi.UI.ContentManager/DownloadableAsset" preserve="nothing" serialized="true" />
