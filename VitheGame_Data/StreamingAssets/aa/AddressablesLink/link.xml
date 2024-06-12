@@ -170,6 +170,11 @@
     <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="Unity.VisualEffectGraph.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.VFX.Utility.VFXPositionBinder" preserve="all" />
+    <type fullname="UnityEngine.VFX.Utility.VFXPropertyBinder" preserve="all" />
+    <type fullname="UnityEngine.VFX.Utility.ExposedProperty" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
     <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
