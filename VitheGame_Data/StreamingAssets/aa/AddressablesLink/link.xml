@@ -439,6 +439,7 @@
     <type fullname="Vi.UI.PlayerUI" preserve="all" />
     <type fullname="Vi.UI.RebindingElement" preserve="all" />
     <type fullname="Vi.UI.ReleaseButton" preserve="all" />
+    <type fullname="Vi.UI.RichPresenceGameMode" preserve="all" />
     <type fullname="Vi.UI.RuntimeWeaponCard" preserve="all" />
     <type fullname="Vi.UI.SceneLoadingInfoUI" preserve="all" />
     <type fullname="Vi.UI.SceneLoadingUI" preserve="all" />
