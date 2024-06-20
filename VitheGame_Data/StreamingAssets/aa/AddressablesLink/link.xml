@@ -445,6 +445,7 @@
     <type fullname="Vi.UI.SceneLoadingUI" preserve="all" />
     <type fullname="Vi.UI.Scoreboard" preserve="all" />
     <type fullname="Vi.UI.ScoreboardElement" preserve="all" />
+    <type fullname="Vi.UI.ScoreboardTeamDividerElement" preserve="all" />
     <type fullname="Vi.UI.ServerListElement" preserve="all" />
     <type fullname="Vi.UI.SettingMenuController" preserve="all" />
     <type fullname="Vi.UI.SpectatorUI" preserve="all" />
