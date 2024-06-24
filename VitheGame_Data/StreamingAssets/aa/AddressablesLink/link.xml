@@ -237,6 +237,14 @@
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Terrain" preserve="all" />
+    <type fullname="UnityEngine.TerrainData" preserve="all" />
+    <type fullname="UnityEngine.TerrainLayer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.TerrainCollider" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
@@ -411,6 +419,7 @@
     <type fullname="Vi.UI.ComboCounterUI" preserve="all" />
     <type fullname="Vi.UI.ConformImageToText" preserve="all" />
     <type fullname="Vi.UI.ContentManager" preserve="all" />
+    <type fullname="Vi.UI.ControlsImageMappingImage" preserve="all" />
     <type fullname="Vi.UI.ControlsSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.CustomOnScreenStick" preserve="all" />
     <type fullname="Vi.UI.DownloadButton" preserve="all" />
@@ -418,6 +427,8 @@
     <type fullname="Vi.UI.DropdownAudio" preserve="all" />
     <type fullname="Vi.UI.EssenceWarManagerUI" preserve="all" />
     <type fullname="Vi.UI.FreeForAllManagerUI" preserve="all" />
+    <type fullname="Vi.UI.GameModeInfoUI" preserve="all" />
+    <type fullname="Vi.UI.GameModeInfoUICard" preserve="all" />
     <type fullname="Vi.UI.GameModeOption" preserve="all" />
     <type fullname="Vi.UI.GameSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.HubServerBrowser" preserve="all" />
@@ -466,6 +477,7 @@
     <type fullname="Vi.UI.ContentManager/DownloadableAssetGroup" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.PlatformUIDefinition/ControlSchemeTextDefinition" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.PlatformUIDefinition/UIDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Vi.UI.GameModeInfoUI/GameModeInfoUIData" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.LobbyUI/AccountCardParent" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.LobbyUI/CustomSettingsParent" preserve="nothing" serialized="true" />
     <type fullname="Vi.UI.LobbyUI/CustomSettingsParent/CustomSettingsInputField" preserve="nothing" serialized="true" />
