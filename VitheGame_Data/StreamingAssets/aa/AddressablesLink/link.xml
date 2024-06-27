@@ -429,6 +429,7 @@
     <type fullname="Vi.UI.FreeForAllManagerUI" preserve="all" />
     <type fullname="Vi.UI.GameModeInfoUI" preserve="all" />
     <type fullname="Vi.UI.GameModeInfoUICard" preserve="all" />
+    <type fullname="Vi.UI.GameModeManagerUI" preserve="all" />
     <type fullname="Vi.UI.GameModeOption" preserve="all" />
     <type fullname="Vi.UI.GameSettingsMenu" preserve="all" />
     <type fullname="Vi.UI.HubServerBrowser" preserve="all" />
