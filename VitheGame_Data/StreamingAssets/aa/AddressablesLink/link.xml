@@ -175,6 +175,9 @@
     <type fullname="UnityEngine.VFX.Utility.VFXPropertyBinder" preserve="all" />
     <type fullname="UnityEngine.VFX.Utility.ExposedProperty" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
     <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
@@ -187,6 +190,8 @@
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
+    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
     <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
     <type fullname="UnityEngine.AudioSource" preserve="all" />
@@ -397,9 +402,11 @@
     <type fullname="Vi.ScriptableObjects.StatusImageReference/StatusIcon" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/Attack" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/AttackSoundEffect" preserve="nothing" serialized="true" />
+    <type fullname="Vi.ScriptableObjects.Weapon/BlockSoundEffect" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/FlinchReaction" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/GrabAttackCrosswalk" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/HitReaction" preserve="nothing" serialized="true" />
+    <type fullname="Vi.ScriptableObjects.Weapon/InflictHitSoundEffect" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/WeaponModelData" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.Weapon/WeaponModelData/Data" preserve="nothing" serialized="true" />
   </assembly>
