@@ -393,6 +393,7 @@
     <type fullname="Vi.ScriptableObjects.StatusImageReference" preserve="all" />
     <type fullname="Vi.ScriptableObjects.Weapon" preserve="all" />
     <type fullname="Vi.ScriptableObjects.WearableEquipment" preserve="all" />
+    <type fullname="Vi.ScriptableObjects.ActionClip/ActionClipSoundEffect" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.ActionClip/StatusPayload" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.CharacterReference/PlayerModelOption" preserve="nothing" serialized="true" />
     <type fullname="Vi.ScriptableObjects.CharacterReference/WeaponOption" preserve="nothing" serialized="true" />
